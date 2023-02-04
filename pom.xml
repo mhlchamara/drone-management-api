@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.dronecorp</groupId>
 	<artifactId>drone-management-api</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0.0</version>
 	<name>drone-management-api</name>
 	<description>API to manage Drones</description>
 	<properties>
@@ -28,6 +28,10 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.h2database</groupId>
+			<artifactId>h2</artifactId>
 		</dependency>
 
 		<dependency>
